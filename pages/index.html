@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Стоматология в Минске "Доктор Смайл" - Качественные стоматологические услуги</title>
+    <meta name="description" content="Стоматологический центр Доктор Смайл в Минске ⭐ 15 лет опыта ⭐ Профессиональные врачи ⭐ Современное оборудование ⭐ Доступные цены ⭐ Запись онлайн">
+    <meta name="keywords" content="стоматология Минск, лечение зубов, имплантация, протезирование, детская стоматология, пародонтология">
+    <meta name="author" content="ООО Доктор Смайл">
+    
+    <!-- OpenGraph Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Стоматология в Минске Доктор Смайл - Качественные стоматологические услуги">
+    <meta property="og:description" content="Стоматологический центр с 15-летним опытом. Полный спектр стоматологических услуг в Минске по доступным ценам.">
+    <meta property="og:url" content="https://doctorsmile.by">
+    <meta property="og:site_name" content="Доктор Смайл">
+    <meta property="og:locale" content="ru_BY">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Доктор Смайл",
+        "legalName": "ООО «Доктор Смайл»",
+        "description": "Стоматологический центр в Минске с полным спектром стоматологических услуг",
+        "url": "https://doctorsmile.by",
+        "telephone": "+375173071986",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "ул. Маяковского, 24 пом. 3Н, к.3н-39",
+            "addressLocality": "Минск",
+            "postalCode": "220006",
+            "addressCountry": "BY"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "53.9045",
+            "longitude": "27.5615"
+        },
+        "openingHours": [
+            "Mo-Fr 09:00-21:00",
+            "Sa 09:00-20:00", 
+            "Su 09:00-17:00"
+        ],
+        "foundingDate": "2008",
+        "taxID": "191279307",
+        "priceRange": "$$",
+        "paymentAccepted": ["Cash", "Credit Card"],
+        "currenciesAccepted": "BYN",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Стоматологические услуги",
+            "itemListElement": [
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Лечение зубов"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Имплантация зубов"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Протезирование"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Пародонтология"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Детская стоматология"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Хирургия"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Рентген-диагностика"}}
+            ]
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="navbar-brand">
+                    <img src="../assets/images/logo.png" alt="Доктор Смайл логотип" class="logo">
+                    <h1 class="brand-text">Доктор Смайл</h1>
+                </div>
+                
+                <div class="navbar-menu" id="navbar-menu">
+                    <ul class="navbar-nav">
+                        <li><a href="#home" class="nav-link active">Главная</a></li>
+                        <li><a href="#services" class="nav-link">Услуги</a></li>
+                        <li><a href="#doctors" class="nav-link">Врачи</a></li>
+                        <li><a href="#advantages" class="nav-link">Преимущества</a></li>
+                        <li><a href="#contacts" class="nav-link">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="navbar-actions">
+                    <a href="tel:+375173071986" class="phone-btn">
+                        <i class="fas fa-phone"></i>
+                        +375 17 307-19-86
+                    </a>
+                    <button class="appointment-btn" onclick="openAppointmentModal()">
+                        Записаться
+                    </button>
+                    <button class="menu-toggle" id="menu-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2 class="hero-title">
+                            Стоматология в Минске 
+                            <span class="highlight">Доктор Смайл</span>
+                        </h2>
+                        <p class="hero-subtitle">
+                            Безупречная улыбка – не подарок природы, а результат правильного ухода и своевременного лечения.
+                        </p>
+                        <div class="hero-features">
+                            <div class="feature-item">
+                                <i class="fas fa-award"></i>
+                                <span>15 лет опыта</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-user-md"></i>
+                                <span>Команда специалистов</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-certificate"></i>
+                                <span>Качественные материалы</span>
+                            </div>
+                        </div>
+                        <div class="hero-actions">
+                            <button class="btn-primary" onclick="openAppointmentModal()">
+                                <i class="fas fa-calendar-plus"></i>
+                                Записаться на прием
+                            </button>
+                            <a href="tel:+375173071986" class="btn-secondary">
+                                <i class="fas fa-phone"></i>
+                                Позвонить
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="../assets/images/main_11zon.webp" alt="Стоматология в Минске Доктор Смайл" class="hero-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Наши услуги</h2>
+                    <p class="section-subtitle">
+                        Полный перечень платных стоматологических услуг, оказываемых профессиональными стоматологами, по самым приятным ценам в Минске
+                    </p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-teeth"></i>
+                        </div>
+                        <h3>Пародонтология</h3>
+                        <p>Профилактика, диагностика и лечение заболеваний околозубных тканей и их патологий с минимальными потерями времени и средств</p>
+                        <a href="#" class="service-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-tooth"></i>
+                        </div>
+                        <h3>Лечение зубов</h3>
+                        <p>Лечение кариеса, пульпита, пломбирование и лечение зубных каналов, беремся за сложные случаи</p>
+                        <a href="#" class="service-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-cut"></i>
+                        </div>
+                        <h3>Хирургия</h3>
+                        <p>Диагностика и лечение патологий зубов, челюсти и мягких тканей, проводим операции по удалению зубов, наращиванию объёма кости</p>
+                        <a href="#" class="service-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <h3>Протезирование</h3>
+                        <p>Консультация ортопеда, моделирование вкладки, временная коронка, металлокерамическая коронка</p>
+                        <a href="#" class="service-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-hammer"></i>
+                        </div>
+                        <h3>Имплантация</h3>
+                        <p>Классическая, одноэтапная, базальная имплантация зубов, имплантация «All – on – 4», имплантация «All – on – 6»</p>
+                        <a href="#" class="service-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-baby"></i>
+                        </div>
+                        <h3>Детская стоматология</h3>
+                        <p>У нас не страшно лечить зубы и ставить брекеты даже самым маленьким пациентам, потому что врачи знают подход к детям</p>
+                        <a href="#" class="service-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-x-ray"></i>
+                        </div>
+                        <h3>Рентген-диагностика</h3>
+                        <p>Современный и быстрый способ диагностики полости рта, который позволяет верно поставить диагноз и назначить план лечения</p>
+                        <a href="#" class="service-link">Подробнее <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Us Section -->
+        <section class="why-us">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Почему мы?</h2>
+                </div>
+                
+                <div class="why-us-grid">
+                    <div class="why-item">
+                        <div class="why-number">15</div>
+                        <h3>лет работы</h3>
+                        <p>Наш стаж говорит сам за себя. 15 лет мы успешно дарим нашим пациентам здоровье и красоту зубов.</p>
+                    </div>
+                    
+                    <div class="why-item">
+                        <div class="why-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Команда специалистов</h3>
+                        <p>Для вас работают сертифицированные врачи узких направлений с первой квалификационной категорией.</p>
+                    </div>
+                    
+                    <div class="why-item">
+                        <div class="why-icon">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                        <h3>Полное обследование</h3>
+                        <p>У нас вы можете получить консультацию и пройти полное обследование. Для вас доступны услуги рентгена и компьютерной томографии.</p>
+                    </div>
+                    
+                    <div class="why-item">
+                        <div class="why-icon">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <h3>Качественные материалы</h3>
+                        <p>Мы выбираем материалы и инструменты лучшего качества от мировых производителей.</p>
+                    </div>
+                    
+                    <div class="why-item">
+                        <div class="why-icon">
+                            <i class="fas fa-ruble-sign"></i>
+                        </div>
+                        <h3>Доступные цены</h3>
+                        <p>Наши цены – ваша зона комфорта. Мы предлагаем качественную стоматологию и доступное платное лечение в Минске.</p>
+                    </div>
+                    
+                    <div class="why-item">
+                        <div class="why-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Довольные пациенты</h3>
+                        <p>Довольные пациенты – лучшее подтверждение качества нашей работы.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Advantages Section -->
+        <section id="advantages" class="advantages">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Наши преимущества</h2>
+                </div>
+                
+                <div class="advantages-grid">
+                    <div class="advantage-card">
+                        <div class="advantage-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Дополнительные гарантии</h3>
+                        <p>Наши врачи — настоящие эксперты в своей области. Поэтому они смело могут предоставить расширенную или дополнительную гарантию на свою работу.</p>
+                    </div>
+                    
+                    <div class="advantage-card">
+                        <div class="advantage-icon">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <h3>Диспансерное наблюдение</h3>
+                        <p>Постоянные пациенты чувствуют нашу заботу. Любезные администраторы вовремя напомнят о необходимости пройти бесплатный профилактический осмотр.</p>
+                    </div>
+                    
+                    <div class="advantage-card">
+                        <div class="advantage-icon">
+                            <i class="fas fa-percentage"></i>
+                        </div>
+                        <h3>Дисконтная программа</h3>
+                        <p>Дисконтная программа «Улыбайся» стимулирует пациента ответственно относиться к своему здоровью и вовремя посещать врача-стоматолога.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Doctors Section -->
+        <section id="doctors" class="doctors">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Наши врачи</h2>
+                    <p class="section-subtitle">Команда профессионалов с многолетним опытом</p>
+                </div>
+                
+                <div class="doctors-grid">
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="../assets/images/doctors/shelehova.png" alt="Шелехова Наталья Николаевна">
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Шелехова Наталья Николаевна</h3>
+                            <p class="doctor-position">Врач стоматолог-терапевт</p>
+                            <p class="doctor-category">Первая квалификационная категория</p>
+                            <p class="doctor-experience">Стаж работы 26 лет</p>
+                            <p class="doctor-description">Профилактика стоматологических заболеваний, лечение всех видов кариеса, эндодонтия, пародонтология. Художественная реставрация зубов, композитные виниры. Отбеливание зубов.</p>
+                        </div>
+                    </div>
+
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="../assets/images/doctors/sokolko.png" alt="Соколко Наталья Сергеевна">
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Соколко Наталья Сергеевна</h3>
+                            <p class="doctor-position">Врач стоматолог-терапевт</p>
+                            <p class="doctor-category">Первая квалификационная категория</p>
+                            <p class="doctor-experience">Стаж работы 25 лет</p>
+                            <p class="doctor-description">Профилактика стоматологических заболеваний у взрослых, лечение всех видов кариеса, эндодонтия, лечение заболеваний слизистой оболочки полости рта.</p>
+                        </div>
+                    </div>
+
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="../assets/images/doctors/strishen.png" alt="Стрижень Светлана Ивановна">
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Стрижень Светлана Ивановна</h3>
+                            <p class="doctor-position">Врач стоматолог-терапевт, детский стоматолог</p>
+                            <p class="doctor-category">Первая квалификационная категория</p>
+                            <p class="doctor-experience">Стаж работы 35 лет</p>
+                            <p class="doctor-description">Опытный специалист по лечению зубов у детей и взрослых.</p>
+                        </div>
+                    </div>
+
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="../assets/images/doctors/meleshko.png" alt="Мелешко Ирина Владимировна">
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Мелешко Ирина Владимировна</h3>
+                            <p class="doctor-position">Ассистент стоматолога</p>
+                            <p class="doctor-category">Первая квалификационная категория</p>
+                            <p class="doctor-experience">Стаж работы 17 лет</p>
+                            <p class="doctor-description">Подготовка стоматологического оборудования, доврачебная помощь, ассистирование стоматологу.</p>
+                        </div>
+                    </div>
+
+                    <div class="doctor-card">
+                        <div class="doctor-image">
+                            <img src="../assets/images/doctors/volodkevich.png" alt="Володкевич-Мехралиева Оксана Витальевна">
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Володкевич-Мехралиева Оксана Витальевна</h3>
+                            <p class="doctor-position">Врач стоматолог-терапевт, детский стоматолог</p>
+                            <p class="doctor-category">Вторая квалификационная категория</p>
+                            <p class="doctor-experience">Стаж работы 8 лет</p>
+                            <p class="doctor-description">Считаю, что уход за зубами предупреждает не только болезни полости рта, но и всего организма.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Не знаете с чего начать?</h2>
+                    <p>Запишитесь на прием к специалисту для первичной диагностики</p>
+                    <div class="working-hours">
+                        <p><strong>Работаем:</strong> пн-пт: 09:00 - 21:00, сб: 09:00 - 20:00, вс: 09:00 - 17:00</p>
+                    </div>
+                    <button class="btn-primary large" onclick="openAppointmentModal()">
+                        <i class="fas fa-calendar-plus"></i>
+                        Записаться на прием
+                    </button>
+                    <p class="privacy-notice">
+                        Нажимая на кнопку «Записаться», вы даете свое согласие на обработку своих персональных данных в соответствии с 
+                        <a href="#" class="privacy-link">Политикой конфиденциальности</a>.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <img src="../assets/images/logo.png" alt="Доктор Смайл логотип" class="footer-logo">
+                        <h3>Доктор Смайл</h3>
+                    </div>
+                    <p class="footer-description">
+                        Стоматологический центр в Минске с 15-летним опытом работы. 
+                        Качественная стоматология по доступным ценам.
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> г. Минск, ул. Маяковского, 24 пом. 3Н, к.3н-39</p>
+                        <p><i class="fas fa-phone"></i> <a href="tel:+375173071986">+375 17 307-19-86</a></p>
+                        <p><i class="fas fa-clock"></i> пн-пт: 09:00-21:00, сб: 09:00-20:00, вс: 09:00-17:00</p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Услуги</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Лечение зубов</a></li>
+                        <li><a href="#">Имплантация</a></li>
+                        <li><a href="#">Протезирование</a></li>
+                        <li><a href="#">Детская стоматология</a></li>
+                        <li><a href="#">Пародонтология</a></li>
+                        <li><a href="#">Хирургия</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Информация</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Наши врачи</a></li>
+                        <li><a href="#">Цены</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="legal-info">
+                    <p>
+                        <strong>Общество с ограниченной ответственностью «Доктор Смайл»</strong><br>
+                        УНП: 191279307 | ОКПО: 379281515<br>
+                        Р/сч: BY29MTBK30120001093300085006 в ЗАО «МТБанк» БИК MTBKBY22
+                    </p>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2024 ООО «Доктор Смайл». Все права защищены.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Appointment Modal -->
+    <div id="appointmentModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Записаться на прием</h3>
+                <button class="modal-close" onclick="closeAppointmentModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="appointmentForm" class="appointment-form">
+                    <div class="form-group">
+                        <label for="name">Ваше имя *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Телефон *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Услуга</label>
+                        <select id="service" name="service">
+                            <option value="">Выберите услугу</option>
+                            <option value="consultation">Консультация</option>
+                            <option value="treatment">Лечение зубов</option>
+                            <option value="implantation">Имплантация</option>
+                            <option value="prosthetics">Протезирование</option>
+                            <option value="pediatric">Детская стоматология</option>
+                            <option value="periodontics">Пародонтология</option>
+                            <option value="surgery">Хирургия</option>
+                            <option value="diagnostics">Рентген-диагностика</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Комментарий</label>
+                        <textarea id="message" name="message" rows="3"></textarea>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Отправить заявку
+                        </button>
+                    </div>
+                    <p class="form-privacy">
+                        Нажимая на кнопку, вы даете согласие на обработку персональных данных
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top" title="Наверх">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
